@@ -1,0 +1,162 @@
+ void setup() {
+size(600, 600);
+frameRate(60);
+
+}
+
+  void draw() {
+
+strokeWeight(10);
+    
+pushMatrix(); //first
+translate (150,150);
+rotate(frameCount/40);
+stroke(230);
+line(20,0,50,0);
+stroke(200);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(100);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(0);
+rotate(PI/4);
+line(20,0,50,0);
+popMatrix();
+
+pushMatrix(); //second
+translate (300,150);
+rotate(frameCount/35);
+stroke(230);
+line(20,0,50,0);
+stroke(200);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(100);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(0);
+rotate(PI/4);
+line(20,0,50,0);
+popMatrix();
+
+pushMatrix(); //third
+translate (450,150);
+rotate(frameCount/30);
+stroke(230);
+line(20,0,50,0);
+stroke(200);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(100);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(0);
+rotate(PI/4);
+line(20,0,50,0);
+popMatrix();
+
+pushMatrix(); //fourth
+translate (450,300);
+rotate(frameCount/25);
+stroke(230);
+line(20,0,50,0);
+stroke(200);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(100);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(0);
+rotate(PI/4);
+line(20,0,50,0);
+popMatrix();
+
+pushMatrix(); //5
+translate (450,450);
+rotate(frameCount/20);
+stroke(230);
+line(20,0,50,0);
+stroke(200);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(100);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(0);
+rotate(PI/4);
+line(20,0,50,0);
+popMatrix();
+
+pushMatrix(); //6
+translate (300,450);
+rotate(frameCount/15);
+stroke(230);
+line(20,0,50,0);
+stroke(200);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(100);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(0);
+rotate(PI/4);
+line(20,0,50,0);
+popMatrix();
+
+pushMatrix(); //7
+translate (150,450);
+rotate(frameCount/10);
+stroke(230);
+line(20,0,50,0);
+stroke(200);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(100);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(0);
+rotate(PI/4);
+line(20,0,50,0);
+popMatrix();
+
+pushMatrix(); //8
+translate (150,300);
+rotate(frameCount/5);
+stroke(230);
+line(20,0,50,0);
+stroke(200);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(100);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(0);
+rotate(PI/4);
+line(20,0,50,0);
+popMatrix();
+
+pushMatrix(); //9
+translate (300,300);
+scale(.25);
+rotate(frameCount/2.5);
+scale(frameCount/7);
+stroke(230);
+line(20,0,50,0);
+stroke(200);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(100);
+rotate(PI/4);
+line(20,0,50,0);
+stroke(0);
+rotate(PI/4);
+line(20,0,50,0);
+popMatrix();
+
+pushMatrix(); //background box
+strokeWeight(1);
+fill(10,5);
+rect(0,0,600,600);
+popMatrix();
+}
